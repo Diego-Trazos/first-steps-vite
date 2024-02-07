@@ -1,1 +1,5 @@
-// Aquí van los getElementById y los querySelectorAll que pondrías al principio.
+const counterElement = document.getElementById('counter');
+
+const buttonElement = document.getElementById('button');
+
+export { counterElement, buttonElement };

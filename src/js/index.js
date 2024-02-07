@@ -1,3 +1,4 @@
-import { sayHello } from './demo';
+import { addCounter } from './functions';
+import { buttonElement } from './dom';
 
-sayHello();
+buttonElement.addEventListener('click', addCounter);
